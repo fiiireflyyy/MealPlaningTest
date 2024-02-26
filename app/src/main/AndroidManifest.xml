@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MealPlaningTest"
         tools:targetApi="31">
         <activity
+            android:name=".CreatorMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParentActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
